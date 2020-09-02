@@ -22,8 +22,8 @@ class LinearRegression:
     self.accuracy =  accuracy_numerator / accuracy_denominator
 
   def fit(self):
-    self.x_mean = self._sum(self.x) / len(x)
-    self.y_mean = self._sum(self.y) / len(y)
+    self.x_mean = self._sum(self.x) / len(self.x)
+    self.y_mean = self._sum(self.y) / len(self.y)
 
     slope_numerator = 0;
     slope_denominator = 0;
